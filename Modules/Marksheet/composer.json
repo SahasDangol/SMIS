@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/marksheet",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Marksheet\\Providers\\MarksheetServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Marksheet\\": ""
+        }
+    }
+}

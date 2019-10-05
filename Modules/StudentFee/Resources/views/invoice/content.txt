@@ -1,0 +1,25 @@
+            <tr>
+                <td>
+                    {!! get_fee_type_select('select2') !!}
+                </td>
+                <td>
+                    <button class="btn btn-sm btn-round btn-primary" data-toggle="modal"
+                            data-target="#fees">Quick Add
+                    </button>
+                </td>
+                <td>
+                    <input class="form-control amount" value=""
+                           type="text" maxlength="6" name="amount[]"
+                           title="Total Payment " required placeholder="Enter Fee Amount in Nepali Rs. (*)"/>
+                </td>
+                <td>
+                    <input class="form-control discount" value="0.00"
+                           type="text" maxlength="6" name="discount[]"
+                           title="Total Payment" required placeholder="Enter Discount Amount in Nepali Rs. (if any)"/>
+                </td>
+                <td>
+                    <input class="form-control total" readonly
+                           type="text" value="0.00" name="subtotal Rs."
+                           title="Sub Total Payment"/>
+                </td>
+            </tr>

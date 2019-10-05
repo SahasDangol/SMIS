@@ -1,0 +1,152 @@
+@page {
+    size: a4
+}
+
+
+
+
+body, html{
+    width: 100% !important;
+}
+body{
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+.d-print-inline {
+    display: inline !important
+}
+
+
+.d-print-block {
+    display: block !important
+}
+
+.d-print-table {
+    display: table !important
+}
+
+.d-print-table-row {
+    display: table-row !important
+}
+
+.d-print-table-cell {
+    display: table-cell !important
+}
+
+.d-print-flex {
+    display: flex !important
+}
+
+
+.d-print-none {
+    display: none !important
+}
+
+.d-print-inline-block {
+    display: inline-block !important
+}
+
+.d-print-inline-flex {
+    display: inline-flex !important
+}
+.sidebar, .navbar, .fixed-plugin, .print-button, .footer, .alert, .an, .dataTables_filter{
+    display: block;
+}
+
+.page-break {
+    display: block;
+    page-break-before: always;
+
+}
+
+*, :after, :before {
+    text-shadow: none !important;
+    box-shadow: none !important
+}
+
+a:not(.btn) {
+    text-decoration: underline
+}
+
+abbr[title]:after {
+    content: " (" attr(title) ")"
+}
+
+pre {
+    white-space: pre-wrap !important
+}
+
+blockquote, pre {
+    border: 1px solid #999;
+    page-break-inside: avoid
+}
+
+thead {
+    display: table-header-group
+}
+
+img, tr {
+    page-break-inside: avoid
+}
+
+h2, h3, p {
+    orphans: 3;
+    widows: 3
+}
+
+h2, h3 {
+    page-break-after: avoid
+}
+
+
+
+.container, body {
+    /*min-width: 992px !important*/
+}
+
+
+
+.badge {
+    border: 1px solid #000
+}
+
+.table {
+    border-collapse: collapse !important
+}
+
+.table td, .table th {
+    background-color: #fff !important
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ddd !important
+}
+
+.table-no-bordered td, .table-bordered th {
+    border: none !important
+}
+
+table.fixedHeader-floating {
+    display: none
+}
+
+
+
+
+.print-no-break{
+    height:100%;
+}
+
+/*
+.table {
+    border:solid #000 !important;
+    border-width:1px 0 0 1px !important;
+}
+.th, .td {
+    border:solid #000 !important;
+    border-width:0 1px 1px 0 !important;
+}
+*/
+

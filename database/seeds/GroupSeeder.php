@@ -1,0 +1,118 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Modules\Account\Entities\Group;
+
+class GroupSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Group::insert([
+            ['name'=>'Assets',
+            'parent_id'=>'0',
+            'level'=>'0'],
+            ['name'=>'Current Assets',
+                'parent_id'=>'1',
+                'level'=>'1'],
+            ['name'=>'Bank Accounts',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Cash-In-Hand',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Deposits',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Loans And Advances',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Stock-In-Hand',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Sundry Debtors',
+                'parent_id'=>'2',
+                'level'=>'2'],
+            ['name'=>'Miscellaneous Expenses',
+                'parent_id'=>'1',
+                'level'=>'1'],
+            ['name'=>'Investments',
+                'parent_id'=>'1',
+                'level'=>'1'],
+            ['name'=>'Fixed Assets',
+                'parent_id'=>'1',
+                'level'=>'1'],
+            ['name'=>'Liabilities',
+                'parent_id'=>'0',
+                'level'=>'0'],
+            ['name'=>'Branch/Divisions',
+                'parent_id'=>'12',
+                'level'=>'1'],
+            ['name'=>'Loans',
+                'parent_id'=>'12',
+                'level'=>'1'],
+            ['name'=>'Bank OCC A/C (Bank OD A/C)',
+                'parent_id'=>'14',
+                'level'=>'2'],
+            ['name'=>'Secured Loans',
+                'parent_id'=>'14',
+                'level'=>'2'],
+            ['name'=>'Unsecured Loans',
+                'parent_id'=>'14',
+                'level'=>'2'],
+            ['name'=>'Suspense A/C',
+                'parent_id'=>'12',
+                'level'=>'1'],
+            ['name'=>'Current Liabilities',
+                'parent_id'=>'12',
+                'level'=>'1'],
+            ['name'=>'Provisions',
+                'parent_id'=>'19',
+                'level'=>'2'],
+            ['name'=>'Sundry Creditors',
+                'parent_id'=>'19',
+                'level'=>'2'],
+            ['name'=>'Duties & Taxes',
+                'parent_id'=>'19',
+                'level'=>'2'],
+            ['name'=>'Capital Account',
+                'parent_id'=>'12',
+                'level'=>'1'],
+            ['name'=>'Reserves & Surplus (Retained Earnings)',
+                'parent_id'=>'23',
+                'level'=>'2'],
+            ['name'=>'Income',
+                'parent_id'=>'25',
+                'level'=>'0'],
+            ['name'=>'Sales Accounts',
+                'parent_id'=>'25',
+                'level'=>'1'],
+            ['name'=>'Indirect Incomes',
+                'parent_id'=>'25',
+                'level'=>'1'],
+            ['name'=>'Direct Incomes',
+                'parent_id'=>'25',
+                'level'=>'1'],
+            ['name'=>'Expenses',
+                'parent_id'=>'29',
+                'level'=>'0'],
+            ['name'=>'Purchase Accounts',
+                'parent_id'=>'29',
+                'level'=>'1'],
+            ['name'=>'Indirect Expenses',
+                'parent_id'=>'29',
+                'level'=>'1'],
+            ['name'=>'Direct Expenses',
+                'parent_id'=>'29',
+                'level'=>'1'],
+
+
+
+
+        ]);
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Calender",
+    "alias": "calender",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Modules\\Calender\\Providers\\CalenderServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

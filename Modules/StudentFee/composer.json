@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/studentfee",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\StudentFee\\Providers\\StudentFeeServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\StudentFee\\": ""
+        }
+    }
+}

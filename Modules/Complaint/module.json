@@ -1,0 +1,14 @@
+{
+    "name": "Complaint",
+    "alias": "complaint",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Modules\\Complaint\\Providers\\ComplaintServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

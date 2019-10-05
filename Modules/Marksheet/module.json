@@ -1,0 +1,14 @@
+{
+    "name": "Marksheet",
+    "alias": "marksheet",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 11,
+    "providers": [
+        "Modules\\Marksheet\\Providers\\MarksheetServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

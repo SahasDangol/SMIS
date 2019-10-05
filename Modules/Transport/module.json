@@ -1,0 +1,14 @@
+{
+    "name": "Transport",
+    "alias": "transport",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Transport\\Providers\\TransportServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
